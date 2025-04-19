@@ -56,7 +56,7 @@ export default function AboutPage() {
             <Users className="h-8 w-8 text-blue-500 mb-4" />
             <h3 className="text-xl font-semibold text-gray-900 mb-3">For Everyone</h3>
             <p className="text-gray-600">
-              Whether you're a legal professional looking to explain documents to clients or an individual facing complex legal text, Lexplain is for you.
+              Whether you&apos;re a legal professional looking to explain documents to clients or an individual facing complex legal text, Lexplain is for you.
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function AboutPage() {
               JD
             </div>
             <p className="text-gray-600 mt-4 italic">
-              "Lexplain helped me understand my commercial lease agreement without having to hire an expensive lawyer. The explanations were clear and saved me thousands."
+              &quot;Lexplain helped me understand my commercial lease agreement without having to hire an expensive lawyer. The explanations were clear and saved me thousands.&quot;
             </p>
             <p className="mt-4 text-sm font-medium text-gray-900">— Jane Doe, Small Business Owner</p>
           </div>
@@ -128,7 +128,7 @@ export default function AboutPage() {
               MS
             </div>
             <p className="text-gray-600 mt-4 italic">
-              "I use Lexplain to help my clients understand complex legal documents. It saves me time and helps them feel more comfortable with the legal process."
+              &quot;I use Lexplain to help my clients understand complex legal documents. It saves me time and helps them feel more comfortable with the legal process.&quot;
             </p>
             <p className="mt-4 text-sm font-medium text-gray-900">— Michael Smith, Attorney</p>
           </div>
@@ -138,7 +138,7 @@ export default function AboutPage() {
               LC
             </div>
             <p className="text-gray-600 mt-4 italic">
-              "As a non-native English speaker, legal documents were doubly confusing. Lexplain translates them to my language and makes them simple to understand."
+              &quot;As a non-native English speaker, legal documents were doubly confusing. Lexplain translates them to my language and makes them simple to understand.&quot;
             </p>
             <p className="mt-4 text-sm font-medium text-gray-900">— Lisa Chen, International Student</p>
           </div>

@@ -47,7 +47,7 @@ export const MinimalistAccordion = () => {
         icon={<Replace className="h-5 w-5 flex items-center justify-center" />}
         title="Is this app a replacement for a lawyer?"
       >
-        <p>Nope! Our AI gives you a clear explanation, not legal advice. It’s perfect for understanding what you're signing, but for critical decisions, you should always consult a lawyer.</p>
+        <p>Nope! Our AI gives you a clear explanation, not legal advice. It&apos;s perfect for understanding what you're signing, but for critical decisions, you should always consult a lawyer.</p>
       </AccordionItem>
       
       <AccordionItem

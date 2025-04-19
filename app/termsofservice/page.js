@@ -27,7 +27,7 @@ export default function TermsOfService() {
             </div>
             
             <p className="text-gray-700">
-              Welcome to Lexplain. These Terms of Service ("Terms") govern your access to and use of the Lexplain website, services, and applications (collectively, the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the Service.
+              Welcome to Lexplain. These Terms of Service (&quot;Terms&quot;) govern your access to and use of the Lexplain website, services, and applications (collectively, the &quot;Service&quot;). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the Service.
             </p>
             
             <p className="text-gray-700 mt-4">
@@ -77,7 +77,7 @@ export default function TermsOfService() {
             
             <h3 className="text-xl font-medium text-black mt-6">Your Content</h3>
             <p className="text-gray-700">
-              Our Service allows you to upload, submit, and analyze legal documents and clauses ("User Content"). You retain all rights to your User Content, and you are solely responsible for it. By uploading User Content, you grant us a non-exclusive, worldwide, royalty-free license to use, store, and process your User Content solely for the purpose of providing and improving the Service.
+              Our Service allows you to upload, submit, and analyze legal documents and clauses (&quot;User Content&quot;). You retain all rights to your User Content, and you are solely responsible for it. By uploading User Content, you grant us a non-exclusive, worldwide, royalty-free license to use, store, and process your User Content solely for the purpose of providing and improving the Service.
             </p>
             
             <h3 className="text-xl font-medium text-black mt-6">Prohibited Content</h3>
@@ -152,7 +152,7 @@ export default function TermsOfService() {
             
             <h3 className="text-xl font-medium text-black mt-6">Warranty Disclaimer</h3>
             <p className="text-gray-700 uppercase font-bold">
-              The service is provided "as is" and "as available" without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance.
+              The service is provided &quot;as is&quot; and &quot;as available&quot; without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance.
             </p>
             
             <p className="text-gray-700 mt-4">
@@ -183,7 +183,7 @@ export default function TermsOfService() {
             
             <h3 className="text-xl font-medium text-black mt-6">Changes to Terms</h3>
             <p className="text-gray-700">
-              We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+              We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days&apos; notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
             </p>
             
             <h3 className="text-xl font-medium text-black mt-6">Entire Agreement</h3>

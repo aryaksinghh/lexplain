@@ -27,7 +27,7 @@ export default function Pricing() {
             Simple, Transparent Pricing
           </h1>
           <p className="mt-5 max-w-xl mx-auto text-xl text-gray-500">
-            We're making legal documents accessible to everyone. Try Lexplain AI for free.
+            We&apos;re making legal documents accessible to everyone. Try Lexplain AI for free.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function Pricing() {
                   <span className="ml-1 text-xl font-medium text-gray-500">/month</span>
                 </div>
                 <p className="mt-5 text-lg text-gray-500">
-                  We're launching Lexplain AI with full features at no cost during our initial release.
+                  We&apos;re launching Lexplain AI with full features at no cost during our initial release.
                 </p>
               </div>
 
@@ -117,7 +117,7 @@ export default function Pricing() {
         <div className="mt-20 text-center">
           <h2 className="text-2xl font-bold text-gray-900">Premium Plans Coming Soon</h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-500">
-            We're working on advanced features for our premium plans. Enjoy the full capabilities of Lexplain AI for free during our early access period.
+            We&apos;re working on advanced features for our premium plans. Enjoy the full capabilities of Lexplain AI for free during our early access period.
           </p>
         </div>
 
@@ -129,7 +129,7 @@ export default function Pricing() {
             <div className="bg-white/80 backdrop-blur-sm rounded-lg shadow-sm p-6 border border-gray-100">
               <h3 className="text-lg font-medium text-gray-900">How long will the free access last?</h3>
               <p className="mt-2 text-base text-gray-500">
-                We're committed to providing free access during our early release phase. We'll notify all users well in advance before introducing any paid plans.
+                We&apos;re committed to providing free access during our early release phase. We&apos;ll notify all users well in advance before introducing any paid plans.
               </p>
             </div>
 

@@ -5,7 +5,7 @@ import { HoverBorderGradient } from './ui/hover-border-gradient'
 
 const Footer = () => {
     return (
-        <footer className="mt-16 pb-10 md:pb-6">
+        <footer className="mt-16 pb-5 md:pb-6">
             <div className="container relative py-8 w-[95vw] md:w-[95vw] flex flex-col mx-auto min-h-[70vh] rounded-3xl bg-black text-white">
                 <BackgroundBeams />
                 <div className="mx-auto mt-5 flex flex-col items-center gap-3">

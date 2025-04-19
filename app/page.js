@@ -1,103 +1,50 @@
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import { WavyBackground } from "@/components/ui/wavy-background";
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
+import { FeaturesSectionDemo } from "@/components/ui/cards";
+import { MinimalistAccordion } from "@/components/accordion";
+import Footer from "@/components/footer";
+import Link from "next/link";
+import ObserverProvider from "@/components/observerprovider";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <WavyBackground className="max-w-screen mx-auto">
+      <ObserverProvider>
+      <div className="flex flex-col">
+        <div>
+          <Navbar />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <div className="hero text-black flex flex-col justify-center items-center text-center px-5 mt-20 md:mt-30">
+          <div className="flex flex-col items-center justify-center gap-7">
+            <h1 className="motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-delay-200 text-4xl md:text-5xl">Ai powered lawyer - Understand legal documents easily</h1>
+            <p className="motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-delay-300 text-md w-[80vw] md:w-[60vw] text-center text-gray-700">Upload any contract or legal doc — our AI breaks it down into simple, no-fluff explanations. Fast, secure, and designed for people who hate legalese</p>
+            <Link href="/playground" className="motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-delay-400">
+              <HoverBorderGradient
+                containerClassName="rounded-full"
+                as="button"
+                className="dark:bg-black cursor-pointer bg-black text-white dark:text-white flex items-center space-x-2"
+              >
+                <span>Try a clause</span>
+              </HoverBorderGradient >
+            </Link>
+          </div>
+          <Image className="mt-15 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-delay-500 rounded-xl border-6 border-gray-500" width={800} height={500} src={'/heroimg.png'} alt="hero" />
+        </div>
+        <div id="features" className=" flex flex-col items-center justify-center mt-24">
+          <h1 className="intersect-once intersect:motion-preset-slide-up motion-delay-200 text-5xl font-bold border-black border-b-3 italic">Features</h1>
+          <FeaturesSectionDemo containerclassName="bg-black" />
+        </div>
+        <div className="qna flex flex-col items-center gap-15 mt-10">
+          <h1 className="intersect-once intersect:motion-preset-slide-up motion-delay-200 text-5xl font-serif italic text-center">Your Questions, Answered</h1>
+          <MinimalistAccordion />
+        </div>
+        <div className="footer intersect-once intersect:motion-preset-slide-up motion-delay-300">
+          <Footer />
+        </div>
+      </div>
+      </ObserverProvider>
+    </WavyBackground>
   );
 }

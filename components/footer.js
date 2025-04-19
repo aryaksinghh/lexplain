@@ -6,10 +6,10 @@ import { HoverBorderGradient } from './ui/hover-border-gradient'
 const Footer = () => {
     return (
         <footer className="mt-16 pb-10 md:pb-6">
-            <div className="container relative py-8 w-[90vw] md:w-[95vw] flex flex-col mx-auto min-h-[70vh] rounded-3xl bg-black text-white">
+            <div className="container relative py-8 w-[95vw] md:w-[95vw] flex flex-col mx-auto min-h-[70vh] rounded-3xl bg-black text-white">
                 <BackgroundBeams />
                 <div className="mx-auto mt-5 flex flex-col items-center gap-3">
-                    <h1 className="text-white text-4xl font-serif italic text-center">Understand Legal Instantly</h1>
+                    <h1 className="px-3 text-white text-4xl font-serif italic text-center">Understand Legal Instantly</h1>
                     <p className="text-center font-mono">With our well trained AI app</p>
                     <Link href={'/playground'} target="_">
                         <HoverBorderGradient

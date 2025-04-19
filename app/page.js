@@ -37,7 +37,7 @@ export default function Home() {
           <FeaturesSectionDemo containerclassName="bg-black" />
         </div>
         <div className="qna flex flex-col items-center gap-15 mt-10">
-          <h1 className="intersect-once intersect:motion-preset-slide-up motion-delay-200 text-5xl font-serif italic text-center">Your Questions, Answered</h1>
+          <h1 className="intersect-once intersect:motion-preset-slide-up motion-delay-200 text-4xl px-3 md:text-5xl font-serif italic text-center">Your Questions, Answered</h1>
           <MinimalistAccordion />
         </div>
         <div className="footer intersect-once intersect:motion-preset-slide-up motion-delay-300">

@@ -40,7 +40,7 @@ export const MinimalistAccordion = () => {
         icon={<FileQuestionIcon className="h-5 w-5 flex items-center justify-center" />}
         title="What kind of legal documents can I upload"
       >
-        <p>You can upload anything—from rental agreements and service contracts to offer letters and privacy policies. If it’s got legal jargon, we’ve got you covered.</p>
+        <p>You can upload anything—from rental agreements and service contracts to offer letters and privacy policies. If it&apos;s got legal jargon, we&apos;ve got you covered.</p>
       </AccordionItem>
       
       <AccordionItem
@@ -54,7 +54,7 @@ export const MinimalistAccordion = () => {
         icon={<div className="h-5 w-5 flex items-center justify-center"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" /></svg></div>}
         title="Is my uploaded document safe and private?"
       >
-        <p>Yes, 100%. We don’t store or share your documents. Everything runs securely, and your files are deleted once processed.</p>
+        <p>Yes, 100%. We don&apos;t store or share your documents. Everything runs securely, and your files are deleted once processed.</p>
       </AccordionItem>
       
       <AccordionItem
@@ -66,9 +66,9 @@ export const MinimalistAccordion = () => {
       
       <AccordionItem
         icon={<FileQuestionIcon className="h-5 w-5 flex items-center justify-center" />}
-        title="What if I don’t understand a part of the explanation?"
+        title="What if I don&apos;t understand a part of the explanation?"
       >
-        <p>Just ask! You can chat with the AI in real-time to clarify anything. Whether it’s a tricky term or a confusing clause, the AI will break it down even further.</p>
+        <p>Just ask! You can chat with the AI in real-time to clarify anything. Whether it&apos;s a tricky term or a confusing clause, the AI will break it down even further.</p>
       </AccordionItem>
       
     </div>

@@ -1,6 +1,6 @@
 "use server"
 import { createClient } from "@/utils/supabase/server";
-import { NextResponse } from "next/server";
+import { redirect } from "next/navigation";
 
 export const googleauth = async () => {
     const supabase = await createClient();
@@ -15,5 +15,6 @@ export const googleauth = async () => {
         console.error("OAuth Login Error:", error.message);
         return { error: error.message }
     } 
-    return NextResponse.redirect(data.url)
+    console.log("rl",data.url)
+    redirect(data.url)
 }

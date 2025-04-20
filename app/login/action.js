@@ -7,12 +7,13 @@ export const googleauth = async () => {
     let { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-            redirectTo: `http://${process.env.NEXT_PUBLIC_HOST}/auth/callback`, 
+            redirectTo: `https://${process.env.NEXT_PUBLIC_HOST}/auth/callback`, 
         },
     })
 
     if (error) {
         console.error("OAuth Login Error:", error.message);
+        return { error: error.message }
     } 
     redirect(data.url)
 }

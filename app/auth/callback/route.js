@@ -11,9 +11,11 @@ export async function GET(request) {
     if (code) {
         const supabase = await createClient();
         const { error } = await supabase.auth.exchangeCodeForSession(code);
+    
         if (!error) {
             const { data: { user } } = await supabase.auth.getUser();
             const { data: userexists, error } = await supabase.from('userdata').select('*').eq('email', user.email).single();
+            
             if (user) {
                 if (!userexists) {
                     const { data, error } = await supabase.from('userdata').insert([

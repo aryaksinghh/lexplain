@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 import { createClient } from '@/utils/supabase/client';
+import Link from 'next/link';
 
 export default function Pricing() {
   const supabase = createClient();
@@ -93,15 +94,15 @@ export default function Pricing() {
               </div>
 
               <div className="mt-10">
-                <button
-                  type="button"
+                <Link
+                  href={"/playground"}
                   disabled={session}
                   className={`w-full inline-flex cursor-pointer items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white ${
                     isHovered ? 'bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500' : 'bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600'
                   } hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 transition-all duration-300 disabled:cursor-not-allowed`}
                 >
                   {session? "Subscribed":"Get started for free"}
-                </button>
+                </Link>
               </div>
 
               <div className="mt-6 text-center">

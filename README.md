@@ -35,11 +35,5 @@
 
 ---
 
-## 📸 Preview
 
-![Lexplain Screenshot](https://your-app-screenshot-url.png) <!-- replace with your screenshot link -->
-
----
-
-## 📂 Folder Structure
 

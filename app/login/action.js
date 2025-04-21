@@ -15,6 +15,5 @@ export const googleauth = async () => {
         console.error("OAuth Login Error:", error.message);
         return { error: error.message }
     } 
-    console.log("rl",data.url)
     redirect(data.url)
 }
